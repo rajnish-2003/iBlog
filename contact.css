@@ -1,0 +1,40 @@
+.contact-content{
+    display:block;
+    height: 395px;
+    padding: 12px;
+    border-radius: 20px;
+    position: relative;
+    height:80vh;
+    margin-top:40px;
+}
+.contact-content::after {
+    content: "";
+    background-image: url("../img/11.svg");
+    width: 98.5%;
+    height: inherit;
+    opacity: 0.13;
+    position: absolute;
+    border-radius: 12px;
+    top:0;
+    z-index:-1;
+  }
+  .form-box textarea
+  {
+    font-size: 17px;
+  }
+.btn {
+    padding:0px 8px;
+    border-radius:6px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: var(--font1);
+    font-size: 16px;
+    color: rgb(138, 136, 136);
+    transition: all 0.1s ease-in-out;
+    text-align:center;
+    
+  }
+  .btn:hover {
+    background: rgb(168, 9, 152);
+    color: white;
+  }
